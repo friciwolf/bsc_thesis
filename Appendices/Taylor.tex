@@ -1,0 +1,44 @@
+% Appendix Template
+
+\chapter{The Approximation of the Helix} % Main appendix title
+
+\label{AppendixA}
+Since most of the particles considered in this thesis are travelling at velocities close to the speed of light, one can assume that $\delta t = \omega \cdot t << 1$, such that one can approximate the helix via
+\begin{multline}
+	\boldsymbol{x}(t) = \boldsymbol{O'} +  \left(\begin{tabular}{c}
+	$R\cos(\delta t + \varphi_1) $\\ 
+	$-R\sin(\delta t + \varphi_1) $\\ 
+	$v_z t $
+	\end{tabular} \right) = \boldsymbol{R} +  \delta t \cdot \left(\begin{tabular}{c}
+	$-R\sin(\varphi_1) $\\ 
+	$-R\cos(\varphi_1) $\\ 
+	$v_3$
+	\end{tabular}\right) \\ +\frac{(\delta t)^2}{2} \cdot R \left(\begin{tabular}{c}
+	$-\cos(\varphi_1) $\\ 
+	$\sin(\varphi_1) $\\ 
+	$0$
+	\end{tabular}\right)+\frac{(\delta t)^3}{6} \cdot R \left(\begin{tabular}{c}
+	$\sin(\varphi_1) $\\ 
+	$\cos(\varphi_1) $\\ 
+	$0$
+	\end{tabular}\right)+O((\delta t)^4),
+\end{multline}
+with $v_3 \delta t = v_z t = v_z \frac{\delta t}{\omega}$ such that the minimization problem becomes
+\begin{equation}
+	\delta(t) = |\overrightarrow{OV}-\boldsymbol{x}(t)|^2 = |\underbrace{\overrightarrow{OV}-\boldsymbol{R}}_\text{$\boldsymbol{\Delta}$}-\boldsymbol{f}(\delta t)|^2 = |\boldsymbol{\Delta}-\boldsymbol{f}(\delta t)|^2,
+\end{equation}
+with $\overrightarrow{OV}$ denoting the vector to the primary vertex. One has to delop $\delta(t)$ up to third order in $\delta t$, in order to solve
+\begin{equation}
+	\frac{d\delta(t)}{d\delta t} \stackrel{!}{=} 0
+\end{equation}
+analytically, which yields
+\begin{equation}
+	\delta (t) = \boldsymbol{\Delta}^2 - 2 \cdot \boldsymbol{\Delta}\cdot\boldsymbol{f} + \boldsymbol{f}^2 = \boldsymbol{\Delta}^2- 2 \cdot \boldsymbol{\Delta}\cdot\boldsymbol{f}+(\delta t)^2 (R^2+v^2_3).
+\end{equation}
+After a bit lengthy calculation one obtains as condition
+\begin{multline}
+	(\delta t)^2 \underbrace{\left[-2\left(\Delta_x \frac{R}{2}\sin\varphi_1+ \Delta_y\frac{R}{2}\cos\varphi_1\right)\right]}_\text{A} + \\
+	\delta t \underbrace{\left[-2(\Delta_x R\cos\varphi_1 + \Delta_y R \sin\varphi_1)+2(R^2+v^2_3)\right]}_\text{B} + \\
+	\underbrace{-2 \left[-\Delta_x R \sin\varphi_1-\Delta_y R \cos\varphi_1+\Delta_z v_3\right]}_\text{C}=0,
+\end{multline}
+leading to an ordinary secondary equation in $\delta t$, which can be solved analytically.
