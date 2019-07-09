@@ -1,22 +1,25 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
-\contentsline {chapter}{\numberline {1}Introduction}{5}{chapter.2}
-\contentsline {chapter}{\numberline {2}The LHC and the CMS Detector}{7}{chapter.3}
-\contentsline {section}{\numberline {2.1}The Large Hadron Collider}{7}{section.4}
-\contentsline {section}{\numberline {2.2}The CMS Detector}{7}{section.5}
-\contentsline {chapter}{\numberline {3}Theoretical Background}{9}{chapter.6}
-\contentsline {section}{\numberline {3.1}The IP method}{9}{section.7}
-\contentsline {chapter}{\numberline {4}Improvement of Event Selection through IP-based Uncertainty Cuts}{11}{chapter.8}
-\contentsline {chapter}{\numberline {5}The Impact Parameter Method}{15}{chapter.24}
-\contentsline {section}{\numberline {5.1}Theoretical background}{15}{section.25}
-\contentsline {section}{\numberline {5.2}The tangential approximation}{17}{section.32}
-\contentsline {section}{\numberline {5.3}The helical approximation}{19}{section.41}
-\contentsline {subsection}{\numberline {5.3.1}Implementation}{19}{subsection.43}
-\contentsline {paragraph}{Finding $\varphi _1$}{19}{section*.44}
-\contentsline {paragraph}{Finding \textbf {O'}}{20}{section*.50}
-\contentsline {paragraph}{Finding $v_z$}{21}{section*.53}
-\contentsline {subsection}{\numberline {5.3.2}Results}{21}{subsection.55}
-\contentsline {subsection}{\numberline {5.3.3}Discussion of Validity}{21}{subsection.58}
-\contentsline {chapter}{\numberline {6}Conclusion and Outlook}{25}{chapter.60}
-\contentsline {chapter}{\numberline {A}The Approximation of the Helix}{27}{appendix.61}
-\contentsline {chapter}{Bibliography}{29}{appendix*.67}
+\contentsline {chapter}{Acknowledgements}{3}{section*.1}
+\contentsline {chapter}{\numberline {1}Introduction}{7}{chapter.3}
+\contentsline {chapter}{\numberline {2}The LHC and the CMS Detector}{9}{chapter.4}
+\contentsline {section}{\numberline {2.1}The Large Hadron Collider}{9}{section.5}
+\contentsline {section}{\numberline {2.2}The CMS Detector}{9}{section.7}
+\contentsline {chapter}{\numberline {3}Theoretical Background}{11}{chapter.9}
+\contentsline {section}{\numberline {3.1}Higgs Production and Decays}{11}{section.10}
+\contentsline {section}{\numberline {3.2}The CP-Mixing}{13}{section.14}
+\contentsline {section}{\numberline {3.3}The IP method}{13}{section.17}
+\contentsline {chapter}{\numberline {4}Identification of Events with Well-Reconstructed Decay Planes}{17}{chapter.24}
+\contentsline {chapter}{\numberline {5}The Reconstruction of Impact Parameters from Track Helices}{21}{chapter.40}
+\contentsline {section}{\numberline {5.1}Theoretical background}{21}{section.41}
+\contentsline {section}{\numberline {5.2}The tangential approximation}{22}{section.47}
+\contentsline {section}{\numberline {5.3}The helical approximation}{25}{section.56}
+\contentsline {subsection}{\numberline {5.3.1}Implementation}{25}{subsection.58}
+\contentsline {paragraph}{Finding $\varphi _1$}{25}{section*.59}
+\contentsline {paragraph}{Finding \textbf {O'}}{26}{section*.65}
+\contentsline {paragraph}{Finding $v_z$}{27}{section*.68}
+\contentsline {subsection}{\numberline {5.3.2}Results}{27}{subsection.71}
+\contentsline {subsection}{\numberline {5.3.3}Discussion of Validity}{29}{subsection.76}
+\contentsline {chapter}{\numberline {6}Conclusion and Outlook}{31}{chapter.79}
+\contentsline {chapter}{\numberline {A}The Approximation of the Helix}{33}{appendix.80}
+\contentsline {chapter}{Bibliography}{35}{appendix*.86}

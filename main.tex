@@ -55,6 +55,7 @@ headsepline, % Uncomment to get a line under the header
 \usepackage{verbatim} % to use the \begin{comment} block
 \usepackage{subfigure}
 \usepackage{physics} %using \bra - \ket
+\usepackage{siunitx} %using \SI
 
 \usepackage{tikz}
 \usepackage{tikz-feynman}
@@ -64,7 +65,8 @@ headsepline, % Uncomment to get a line under the header
 \newcommand\encircle[1]{%
 	\tikz[baseline=(X.base)] 
 	\node (X) [draw, shape=circle, inner sep=0] {\strut #1};} %to encirle letters
-
+\hyphenation{ne-ver-the-less}
+\hyphenation{e-le-men-ta-ry}
 %----------------------------------------------------------------------------------------
 %	MARGIN SETTINGS
 %----------------------------------------------------------------------------------------
@@ -83,7 +85,7 @@ headsepline, % Uncomment to get a line under the header
 %	THESIS INFORMATION
 %----------------------------------------------------------------------------------------
 
-\thesistitle{Measurement of Higgs Boson CP Properties} % Your thesis title, this is used in the title and abstract, print it elsewhere with \ttitle
+\thesistitle{Study of the Reconstruction of Tau Decay Planes for a Higgs Boson CP Measurement} % Your thesis title, this is used in the title and abstract, print it elsewhere with \ttitle
 \supervisor{Prof. Achim \textsc{Stahl} \\ Prof. Oliver \textsc{Pooth}} % Your supervisor's name, this is used in the title page, print it elsewhere with \supname
 \examiner{} % Your examiner's name, this is not currently used anywhere in the template, print it elsewhere with \examname
 \degree{Bachelor of Science} % Your degree name, this is used in the title page and abstract, print it elsewhere with \degreename
@@ -204,12 +206,14 @@ The Thesis Abstract is written here (and usually kept to just this page). The pa
 %----------------------------------------------------------------------------------------
 %	ACKNOWLEDGEMENTS
 %----------------------------------------------------------------------------------------
-\begin{comment}
+
 \begin{acknowledgements}
 \addchaptertocentry{\acknowledgementname} % Add the acknowledgements to the table of contents
-The acknowledgments and the people to thank go here, don't forget to include your project advisor\ldots
+First and foremost, I would like to thank Prof. Achim Stahl for giving me this opportunity at III. Phyiscs Institute B. I would also like to acknowledge Prof. Oliver Pooth for his kind support during the first weeks of my work, he was always open whenever I ran into a trouble in the labyrinth of organisation.\\
+I must express my very profound gratitude to Prof. Wolfgang Lohmann, Dr. Thomas Müller and Alexander Zotz. Without their assistance and dedicated involvement in every step throughout the process, this thesis would have never been accomplished. I would like to thank you very much for your support and understanding over these past three months -- especially that of Thomas, whose supervision, contribution, continuous encouragement and teaching attitude is unparalleled.\\
+I am also grateful to Jordy Degens for sharing expertise at the very beginning and Lucas Wiens for taking his time reviewing early versions of this work.
 \end{acknowledgements}
-\end{comment}
+
 %----------------------------------------------------------------------------------------
 %	LIST OF CONTENTS/FIGURES/TABLES PAGES
 %----------------------------------------------------------------------------------------
